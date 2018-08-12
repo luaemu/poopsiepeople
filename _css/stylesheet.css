@@ -1,0 +1,11 @@
+body {
+	background-color: rgb(174, 214, 241);
+	font-family: Helvetica;
+	font-size: 120%;
+}
+p {
+	color: darkblue;
+	font-family Helvetica;
+	font-size: 135%;
+	font-style: bold;
+}
