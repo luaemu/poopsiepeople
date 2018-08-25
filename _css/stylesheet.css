@@ -1,11 +1,12 @@
 body {
-	background-color: rgb(174, 214, 241);
-	font-family: Helvetica;
+	background-color: aquamarine;
+	color: darkgreen;
 	font-size: 120%;
+	font-family: 'Raleway', sans-serif;
 }
-p {
-	color: darkblue;
-	font-family Helvetica;
-	font-size: 135%;
+a {
+	color: darkred;
+	text-decoration: underline;
 	font-style: bold;
 }
+
