@@ -1,21 +1,9 @@
 function main() {
-	$("body").hide();
-	$("body").fadeIn(900);
-	$('.aboutButton').next().hide();
-	$('.aboutButton').on('click', function(event) {
-		$('.aboutButton').next().slideToggle(800);
-		$('.aboutButton').css('background-color', '#566573');
-		$('.aboutButton').css('color', 'white');
-	});
+	var $body = $("body");
+	var $abtButton = $(".aboutButton");
+	$abtButton.next().hide();
+	$body.hide();
+	$body.fadeIn(1000);
+	$abtButton.nextAll().slideDown(800);
 }
-function main() {
-	$("body").hide();
-	$("body").fadeIn(900);
-	$('.aboutButton').next().hide();
-	$('.aboutButton').on('click', function(event) {
-		$('.aboutButton').next().slideToggle(800);
-		$('.aboutButton').css('background-color', '#566573');
-		$('.aboutButton').css('color', 'white');
-	});
-}
-	$(document).ready(main);
+$(document).ready(main);
